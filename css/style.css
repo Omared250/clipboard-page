@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap');
+
+/*--------general setups--------*/
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+body #image-mobile-top {
+    width: 100%;
+}
+
+main {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/*------individual setups--------*/
