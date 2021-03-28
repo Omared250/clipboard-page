@@ -12,8 +12,11 @@ body #image-mobile-top {
 
 main {
     position: absolute;
-    top: 0;
-    left: 0;
+    display: flex;
+    top: 25%;
+    left: 5%;
+    width: 90%;
+    flex-direction: column;
 }
 
 /*------individual setups--------*/
