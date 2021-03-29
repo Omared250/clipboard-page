@@ -142,3 +142,44 @@ main {
     color: var(--Dark-Grayish-Blue);
 }
 
+.workflow-area {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.workflow-area img {
+    margin: auto;
+    width: 10%;
+}
+
+.workflow-area h2 {
+    margin-top: 50px;
+    margin-bottom: 0;
+    font-size: 35px;
+    color: var(--Dark-Grayish-Blue);
+    font-weight: 600
+}
+
+.workflow-area #paragraph-1 {
+    margin-top: 20px;
+    margin-bottom: 80px;
+    font-size: 17.5px;
+    line-height: 28px;
+    color: var(--Dark-Grayish-Blue);
+}
+
+.workflow-area h3 {
+    margin-top: 40px;
+    margin-bottom: 0;
+    font-size: 25px;
+    color: var(--Dark-Grayish-Blue);
+}
+
+.workflow-area p {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 17.5px;
+    line-height: 28px;
+    color: var(--Dark-Grayish-Blue);
+}
