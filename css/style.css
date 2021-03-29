@@ -119,3 +119,26 @@ main {
     line-height: 28px;
     color: var(--Dark-Grayish-Blue);
 }
+
+.access-area {
+    display: flex;
+    margin-top: 30%;
+    flex-direction: column;
+    text-align: center;
+}
+
+.access-area h2 {
+    margin-bottom: 0;
+    font-size: 35px;
+    color: var(--Dark-Grayish-Blue);
+    font-weight: 600
+}
+
+.access-area p {
+    margin-top: 20px;
+    margin-bottom: 70px;
+    font-size: 17.5px;
+    line-height: 28px;
+    color: var(--Dark-Grayish-Blue);
+}
+
