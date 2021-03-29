@@ -49,6 +49,7 @@ main {
 .description-download-area #paragraph {
     margin-top: 0;
     font-size: 17.5px;
+    line-height: 28px;
     color: var(--Dark-Grayish-Blue);
 }
 
@@ -80,4 +81,41 @@ main {
     border-bottom: 2px solid hsl(233, 45%, 36%);
     box-shadow: 1px 8px 20px hsl(232, 26%, 77%);
     background-color: var(--Light-Blue);
+}
+
+.snippets-area {
+    display: flex;
+    margin-top: 40%;
+    flex-direction: column;
+    text-align: center;
+}
+
+.snippets-area h2 {
+    margin: 0;
+    font-size: 35px;
+    color: var(--Dark-Grayish-Blue);
+}
+
+.snippets-area #snippets-paragraph {
+    margin-top: 20px;
+    font-size: 17.5px;
+    line-height: 28px;
+    color: var(--Dark-Grayish-Blue);
+}
+
+.snippets-area img {
+    margin-top: 40px;
+}
+
+.snippets-area h3 {
+    margin-top: 50px;
+    margin-bottom: 0;
+    font-size: 25px;
+    color: var(--Dark-Grayish-Blue);
+}
+
+.snippets-area p {
+    font-size: 17.5px;
+    line-height: 28px;
+    color: var(--Dark-Grayish-Blue);
 }
