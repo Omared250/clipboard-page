@@ -183,3 +183,18 @@ main {
     line-height: 28px;
     color: var(--Dark-Grayish-Blue);
 }
+
+.logos-area {
+    display: flex;
+    margin: 50px auto 90px auto;
+    flex-direction: column;
+}
+
+.logos-area img {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.logos-area #ibm {
+    width: 70%;
+}
