@@ -73,6 +73,10 @@ main {
     background-color: var(--Strong-Cyan);
 }
 
+.description-download-area #link-1:hover {
+    cursor: pointer;
+}
+
 .description-download-area #link-2 {
     display: flex;
     height: 50px;
@@ -84,6 +88,10 @@ main {
     border-bottom: 2px solid hsl(233, 45%, 36%);
     box-shadow: 1px 8px 20px hsl(232, 26%, 77%);
     background-color: var(--Light-Blue);
+}
+
+.description-download-area #link-2:hover {
+    cursor: pointer;
 }
 
 .snippets-area {
@@ -247,6 +255,10 @@ main {
     background-color: var(--Strong-Cyan);
 }
 
+.download-footer #link-3:hover {
+    cursor: pointer;
+}
+
 .download-footer #link-4 {
     display: flex;
     height: 50px;
@@ -258,6 +270,10 @@ main {
     border-bottom: 2px solid hsl(233, 45%, 36%);
     box-shadow: 1px 8px 20px hsl(232, 26%, 77%);
     background-color: var(--Light-Blue);
+}
+
+.download-footer #link-4:hover {
+    cursor: pointer;
 }
 
 .contact-area {
@@ -285,12 +301,18 @@ main {
     color: var(--Dark-Grayish-Blue);     
 }
 
+.contact-area li:hover {
+    cursor: pointer;
+    color: var(--Strong-Cyan);
+}
+
 .icons-area {
     display: flex;
     justify-content: center;
 }
 
 .icons-area img {
-    width: 8%;
+    width: 40%;
     margin: 30px;
 }
+
