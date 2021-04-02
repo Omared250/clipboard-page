@@ -50,6 +50,13 @@ main {
     }
 }
 
+@media (min-width: 1024px) {
+    main {
+        left: 20%;
+        width: 60%;
+    }
+}
+
 /*------individual setups--------*/
 
 #page-header-logo {
@@ -61,6 +68,13 @@ main {
     #page-header-logo {
         padding: 0 40%;
         width: 20%;
+    }
+}
+
+@media (min-width: 1024px) {
+    #page-header-logo {
+        padding: 0 43%;
+        width: 15%;
     }
 }
 
@@ -85,6 +99,13 @@ main {
     font-weight: 600
 }
 
+@media (min-width: 1024px) {
+    .description-download-area h2 {
+        margin: 8% 0 2% 0;
+        font-size: 40px;
+    }
+}
+
 .description-download-area #paragraph {
     margin-top: 0;
     font-size: 17.5px;
@@ -99,6 +120,12 @@ main {
     font-weight: 600;
 }
 
+@media (min-width: 1024px) {
+    .description-download-area a {
+        font-weight: 400;
+    }
+}
+
 .description-download-area #link-1 {
     display: flex;
     height: 50px;
@@ -109,6 +136,16 @@ main {
     border-bottom: 2px solid hsl(171, 67%, 22%);
     box-shadow: 1px 8px 20px hsl(171, 77%, 83%);
     background-color: var(--Strong-Cyan);
+}
+
+@media (min-width: 1024px) {
+    .description-download-area #link-1 {
+        position: absolute;
+        top: 7%;
+        left: 15%;
+        height: 40px;
+        width: 34%;
+    }
 }
 
 .description-download-area #link-1:hover {
@@ -126,6 +163,16 @@ main {
     border-bottom: 2px solid hsl(233, 45%, 36%);
     box-shadow: 1px 8px 20px hsl(232, 26%, 77%);
     background-color: var(--Light-Blue);
+}
+
+@media (min-width: 1024px) {
+    .description-download-area #link-2 {
+        position: absolute;
+        top: 7.2%;
+        left: 52%;
+        height: 40px;
+        width: 34%;
+    }
 }
 
 .description-download-area #link-2:hover {
@@ -147,6 +194,12 @@ main {
     }
 }
 
+@media (min-width: 1024px) {
+    .snippets-area {
+        margin: 28% 0 0;
+    }
+}
+
 .snippets-area h2 {
     margin: 0;
     font-size: 35px;
@@ -160,8 +213,23 @@ main {
     color: var(--Dark-Grayish-Blue);
 }
 
+@media (min-width: 1024px) {
+    .snippets-area #snippets-paragraph {
+        font-size: 16px;
+    }
+}
+
 .snippets-area img {
     margin-top: 40px;
+}
+
+@media (min-width: 1024px) {
+    .snippets-area img {
+        position: absolute;
+        top: 16%;
+        left: -35%;
+        width: 500px;
+    }
 }
 
 .snippets-area h3 {
@@ -175,6 +243,30 @@ main {
     font-size: 17.5px;
     line-height: 28px;
     color: var(--Dark-Grayish-Blue);
+}
+
+@media (min-width: 1024px) {
+    .features-area {
+        position: absolute;
+        display: flex;
+        top: 17%;
+        left: 60%;
+        width: 60%;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .snippets-area h3 {
+        margin-top: 20px;
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+
+    .snippets-area p {
+        font-size: 15px;
+        margin: 10px 0 0 0;
+        line-height: 20px;
+    }
 }
 
 .access-area {
