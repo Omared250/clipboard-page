@@ -226,7 +226,7 @@ main {
 @media (min-width: 1024px) {
     .snippets-area img {
         position: absolute;
-        top: 16%;
+        top: 15%;
         left: -35%;
         width: 500px;
     }
@@ -257,13 +257,13 @@ main {
     }
 
     .snippets-area h3 {
-        margin-top: 20px;
+        margin-top: 18px;
         margin-bottom: 0;
         font-size: 20px;
     }
 
     .snippets-area p {
-        font-size: 15px;
+        font-size: 17px;
         margin: 10px 0 0 0;
         line-height: 20px;
     }
@@ -281,6 +281,13 @@ main {
     .access-area {
         width: 100%;
         margin: 15% 0 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    .access-area {
+        width: 100%;
+        margin: 90% 0 0;
     }
 }
 
@@ -343,6 +350,47 @@ main {
     color: var(--Dark-Grayish-Blue);
 }
 
+@media (min-width: 1024px) {
+    .workflow-features {
+        position: absolute;
+        display: flex;
+        top: 53%;
+        left: -10%;
+        width: 120%;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .workflow-features div {
+        height: 200px;
+        background-color: wheat;
+    }
+
+    .workflow-area img {
+        margin: auto;
+        padding: 5% 0 0 0;
+        width: 15%;
+    }
+
+    .workflow-area h3 {
+        margin-top: 10px;
+        font-size: 15px;
+
+    }
+
+    .workflow-area p {
+        font-size: 12px;
+    }
+
+    #plain-text {
+        margin-top: 28px;
+    }
+
+    #sneak-preview {
+        margin-top: 38px;
+    }
+}
+
 .logos-area {
     display: flex;
     width: 90%;
@@ -357,6 +405,26 @@ main {
 
 .logos-area #ibm {
     width: 30%;
+}
+
+@media (min-width: 1024px) {
+    .logos-area {
+        margin: 0 0 0 -10%;
+        width: 120%;
+        flex-direction: row;
+        justify-content: space-evenly;
+        background-color: wheat;
+    }
+
+    .logos-area img {
+        width: 90px;
+        height: 35px;
+        margin: 0;
+    }
+
+    .logos-area #ibm {
+        width: 90px;
+    }
 }
 
 .download-footer {
@@ -399,6 +467,16 @@ main {
     background-color: var(--Strong-Cyan);
 }
 
+@media (min-width: 1024px) {
+    .download-footer #link-3 {
+        position: absolute;
+        top: 79%;
+        left: 15%;
+        height: 40px;
+        width: 34%;
+    }
+}
+
 .download-footer #link-3:hover {
     cursor: pointer;
 }
@@ -414,6 +492,16 @@ main {
     border-bottom: 2px solid hsl(233, 45%, 36%);
     box-shadow: 1px 8px 20px hsl(232, 26%, 77%);
     background-color: var(--Light-Blue);
+}
+
+@media (min-width: 1024px) {
+    .download-footer #link-4 {
+        position: absolute;
+        top: 78.7%;
+        left: 52%;
+        height: 40px;
+        width: 34%;
+    }
 }
 
 .download-footer #link-4:hover {
@@ -454,6 +542,24 @@ main {
 .contact-area li:hover {
     cursor: pointer;
     color: var(--Strong-Cyan);
+}
+
+@media (min-width: 1024px) {
+    .contact-area {
+        width: 165%;
+        margin: 0 0 0 -33%;
+        flex-direction: row;
+    }
+
+    .contact-area img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .contact-area li {
+        display: flex;
+        flex-direction: row;
+    }
 }
 
 .icons-area {
