@@ -141,7 +141,7 @@ main {
 @media (min-width: 1024px) {
     .description-download-area #link-1 {
         position: absolute;
-        top: 7%;
+        top: 11%;
         left: 15%;
         height: 40px;
         width: 34%;
@@ -168,7 +168,7 @@ main {
 @media (min-width: 1024px) {
     .description-download-area #link-2 {
         position: absolute;
-        top: 7.2%;
+        top: 11.3%;
         left: 52%;
         height: 40px;
         width: 34%;
@@ -196,7 +196,7 @@ main {
 
 @media (min-width: 1024px) {
     .snippets-area {
-        margin: 28% 0 0;
+        margin: 27% 0 0;
     }
 }
 
@@ -226,7 +226,7 @@ main {
 @media (min-width: 1024px) {
     .snippets-area img {
         position: absolute;
-        top: 15%;
+        top: 25%;
         left: -35%;
         width: 500px;
     }
@@ -249,7 +249,7 @@ main {
     .features-area {
         position: absolute;
         display: flex;
-        top: 17%;
+        top: 27%;
         left: 60%;
         width: 60%;
         flex-direction: column;
@@ -354,7 +354,7 @@ main {
     .workflow-features {
         position: absolute;
         display: flex;
-        top: 53%;
+        top: 72%;
         left: -10%;
         width: 120%;
         flex-direction: row;
@@ -363,7 +363,6 @@ main {
 
     .workflow-features div {
         height: 200px;
-        background-color: wheat;
     }
 
     .workflow-area img {
@@ -409,11 +408,10 @@ main {
 
 @media (min-width: 1024px) {
     .logos-area {
-        margin: 0 0 0 -10%;
         width: 120%;
+        margin: 30% 0 10% -10%;
         flex-direction: row;
         justify-content: space-evenly;
-        background-color: wheat;
     }
 
     .logos-area img {
@@ -448,6 +446,13 @@ main {
     color: var(--Dark-Grayish-Blue);    
 }
 
+@media (min-width: 1024px) {
+    .download-footer p {
+        margin-bottom: 30%;
+        font-size: 15px;
+    }
+}
+
 .download-footer a {
     text-decoration: none;
     color: white;
@@ -470,7 +475,7 @@ main {
 @media (min-width: 1024px) {
     .download-footer #link-3 {
         position: absolute;
-        top: 79%;
+        top: 92%;
         left: 15%;
         height: 40px;
         width: 34%;
@@ -497,7 +502,7 @@ main {
 @media (min-width: 1024px) {
     .download-footer #link-4 {
         position: absolute;
-        top: 78.7%;
+        top: 91.7%;
         left: 52%;
         height: 40px;
         width: 34%;
@@ -554,11 +559,18 @@ main {
     .contact-area img {
         width: 50px;
         height: 50px;
+        margin: auto;
+    }
+
+    .contact-area ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
     }
 
     .contact-area li {
-        display: flex;
-        flex-direction: row;
+        margin: 0 20px 0 0;
     }
 }
 
@@ -570,5 +582,12 @@ main {
 .icons-area img {
     width: 40%;
     margin: 30px;
+}
+
+@media (min-width: 1024px) {
+    .icons-area img {
+        width: 20px;
+        height: 20px;
+    }
 }
 
