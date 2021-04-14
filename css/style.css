@@ -12,3 +12,8 @@
 body {
     font-family: 'Bai Jamjuree', sans-serif;
 }
+
+main {
+    background-repeat: no-repeat;
+    background-image: url("../images/bg-header-desktop.png");
+}
