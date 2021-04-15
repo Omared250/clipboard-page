@@ -56,6 +56,8 @@ main {
     align-items: center;
     justify-content: center;
     border-radius: 50px;
+    box-shadow: 2px 5px 8px hsl(171, 78%, 64%);
+    border-bottom: 2px solid hsl(171, 68%, 35%);
     background-color: var(--Strong-Cyan);
 }
 
@@ -70,11 +72,13 @@ main {
     display: flex;
     width: 200px;
     height: 45px;
-    margin: -43px 0 0 220px;
+    margin: -45px 0 0 220px;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     border-radius: 50px;
+    box-shadow: 2px 5px 8px hsl(233, 78%, 64%);
+    border-bottom: 2px solid hsl(233, 68%, 35%);
     background-color: var(--Light-Blue);
 }
 
@@ -84,3 +88,6 @@ main {
     font-weight: 600;
     text-decoration: none;
 }
+
+/*-------snnipets area setup--------*/
+
