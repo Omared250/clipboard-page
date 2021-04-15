@@ -109,7 +109,7 @@ main {
     font-size: 18px;
     line-height: 25px;
     text-align: center;
-    color: var(--Grayish-Blue)
+    color: var(--Grayish-Blue);
 }
 
 .snippets-area img {
@@ -132,4 +132,31 @@ main {
     margin: 10px 0 0 0;
     font-size: 16px;
     color: var(--Grayish-Blue);
+}
+
+/*------acces-area setup--------*/
+
+.access-area {
+    margin-top: 180px;
+    text-align: center;
+}
+
+.access-area h2 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--Dark-Grayish-Blue);
+}
+
+.access-area p {
+    margin: 10px auto 80px auto;
+    width: 600px;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: var(--Grayish-Blue);
+}
+
+.access-area img {
+    width: 700px;
 }
