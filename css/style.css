@@ -28,6 +28,59 @@ main {
     justify-content: center;
 }
 
+.description-download-area h2 {
+    margin: 40px 0 0 0;
+    font-size: 41px;
+    font-weight: 600;
+    color: var(--Dark-Grayish-Blue);
+}
+
 #page-header-logo {
     width: 100px;
+}
+
+#paragraph {
+    margin-top: 10px;
+    width: 650px;
+    font-size: 18px;
+    text-align: center;
+    color: var(--Grayish-Blue);
+}
+
+#link-1 {
+    display: flex;
+    width: 200px;
+    height: 45px;
+    margin: 30px 0 0 -220px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: var(--Strong-Cyan);
+}
+
+#link-1 a {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#link-2 {
+    display: flex;
+    width: 200px;
+    height: 45px;
+    margin: -43px 0 0 220px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: var(--Light-Blue);
+}
+
+#link-2 a {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
 }
