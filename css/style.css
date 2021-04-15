@@ -160,3 +160,50 @@ main {
 .access-area img {
     width: 700px;
 }
+
+/*-----workflow-area setup-------*/
+
+.workflow-area {
+    text-align: center;
+}
+
+.workflow-area h2 {
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    color: var(--Dark-Grayish-Blue);
+}
+
+#paragraph-1 {
+    margin: 10px auto 0 auto;
+    width: 650px;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: var(--Grayish-Blue);;
+}
+
+.workflow-features {
+    display: flex;
+    width: 90%;
+    margin: 50px 5% 0 5%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.workflow-features div {
+    width: 300px;
+    margin-right: 20px;
+}
+
+.workflow-features div h3 {
+    color: var(--Dark-Grayish-Blue);
+}
+
+.workflow-features div p {
+    font-size: 15px;
+    color: var(--Grayish-Blue);
+}
