@@ -181,7 +181,7 @@ main {
     font-size: 15px;
     line-height: 25px;
     text-align: center;
-    color: var(--Grayish-Blue);;
+    color: var(--Grayish-Blue);
 }
 
 .workflow-features {
@@ -222,4 +222,70 @@ main {
 
 #ibm {
     width: 100px;
+}
+
+/*-------download area setup-------*/
+
+.download-footer {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.download-footer h2 {
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    color: var(--Dark-Grayish-Blue);    
+}
+
+.download-footer p {
+    margin: 10px auto 0 auto;
+    width: 650px;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: center;
+    color: var(--Grayish-Blue);
+}
+
+#link-3 {
+    display: flex;
+    width: 200px;
+    height: 45px;
+    margin: 60px auto 0 450px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    box-shadow: 2px 5px 8px hsl(171, 78%, 64%);
+    border-bottom: 2px solid hsl(171, 68%, 35%);
+    background-color: var(--Strong-Cyan);
+}
+
+#link-3 a {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#link-4 {
+    display: flex;
+    width: 200px;
+    height: 45px;
+    margin: -46px auto 0 670px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    box-shadow: 2px 5px 8px hsl(233, 78%, 64%);
+    border-bottom: 2px solid hsl(233, 68%, 35%);
+    background-color: var(--Light-Blue);
+}
+
+#link-4 a {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
 }
