@@ -289,3 +289,38 @@ main {
     font-weight: 600;
     text-decoration: none;
 }
+
+/*-----contact area setup-------*/
+
+.contact-area {
+    display: flex;
+    width: 100%;
+    margin-top: 200px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(239, 239, 245);
+}
+
+.contact-area img {
+    width: 50px;
+}
+
+.contact-area ul {
+    display: flex;
+    height: 100px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.contact-area ul li {
+    margin-right: 50px;
+}
+
+.media-icons-area a {
+    margin-right: 40px;
+    color: var(--Grayish-Blue);
+}
+
