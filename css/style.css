@@ -494,6 +494,13 @@ main {
     background-color: rgb(239, 239, 245);
 }
 
+@media (max-width: 375px) {
+    .contact-area {
+        height: 500px;
+        flex-direction: column;
+    }  
+}
+
 .contact-area img {
     width: 50px;
 }
@@ -507,18 +514,37 @@ main {
     list-style: none;
 }
 
+@media (max-width: 375px) {
+    .contact-area ul {
+        flex-direction: column;
+    }  
+}
+
 .contact-area ul li {
     margin-right: 50px;
 }
 
+@media (max-width: 375px) {
+    .contact-area ul li {
+        margin-right: 40px;
+        margin-top: 20px;
+    }   
+}
+
 .list-links {
     text-decoration: none;
-    color: var(--Grayish-Blue);
+    color: var(--Dark-Grayish-Blue);
 }
 
 .media-icons-area a {
     margin-right: 40px;
-    color: var(--Grayish-Blue);
+    color: var(--Dark-Grayish-Blue);
+}
+
+@media (max-width: 375px) {
+    .media-icons-area a {
+        margin-right: 20px;
+    }  
 }
 
 .contact-area a:hover {
