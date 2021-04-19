@@ -61,6 +61,10 @@ main {
     background-color: var(--Strong-Cyan);
 }
 
+#link-1:hover {
+    cursor: pointer;
+}
+
 #link-1 a {
     color: white;
     font-size: 18px;
@@ -80,6 +84,10 @@ main {
     box-shadow: 2px 5px 8px hsl(233, 78%, 64%);
     border-bottom: 2px solid hsl(233, 68%, 35%);
     background-color: var(--Light-Blue);
+}
+
+#link-2:hover {
+    cursor: pointer;
 }
 
 #link-2 a {
@@ -262,6 +270,10 @@ main {
     background-color: var(--Strong-Cyan);
 }
 
+#link-3:hover {
+    cursor: pointer;
+}
+
 #link-3 a {
     color: white;
     font-size: 18px;
@@ -281,6 +293,10 @@ main {
     box-shadow: 2px 5px 8px hsl(233, 78%, 64%);
     border-bottom: 2px solid hsl(233, 68%, 35%);
     background-color: var(--Light-Blue);
+}
+
+#link-4:hover {
+    cursor: pointer;
 }
 
 #link-4 a {
@@ -319,8 +335,16 @@ main {
     margin-right: 50px;
 }
 
+.list-links {
+    text-decoration: none;
+    color: var(--Grayish-Blue);
+}
+
 .media-icons-area a {
     margin-right: 40px;
     color: var(--Grayish-Blue);
 }
 
+.contact-area a:hover {
+    color: var(--Strong-Cyan);
+}
