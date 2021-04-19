@@ -211,6 +211,12 @@ main {
     color: var(--Dark-Grayish-Blue);
 }
 
+@media (max-width: 375px) {
+    .features-area h3 {
+        font-size: 25px;
+    }   
+}
+
 .features-area p {
     margin: 10px 0 0 0;
     font-size: 16px;
@@ -224,11 +230,23 @@ main {
     text-align: center;
 }
 
+@media (max-width: 375px) {
+    .access-area {
+        margin-top: 150px;
+    }   
+}
+
 .access-area h2 {
     margin: 0;
     font-size: 30px;
     font-weight: 600;
     color: var(--Dark-Grayish-Blue);
+}
+
+@media (max-width: 375px) {
+    .access-area h2 {
+        font-size: 35px;
+    }   
 }
 
 .access-area p {
@@ -240,8 +258,23 @@ main {
     color: var(--Grayish-Blue);
 }
 
+@media (max-width: 375px) {
+    .access-area p {
+        width: auto;
+        margin: 10px auto 50px auto;
+        font-size: 18px;
+    }   
+}
+
 .access-area img {
     width: 700px;
+}
+
+@media (max-width: 375px) {
+    .access-area img {
+        width: 90%;
+        margin: 0 5% 0 5%;
+    }   
 }
 
 /*-----workflow-area setup-------*/
