@@ -357,8 +357,22 @@ main {
     justify-content: center;
 }
 
+@media (max-width: 375px) {
+    .logos-area {
+        margin-top: 20;
+        flex-direction: column;
+    }
+}
+
 .logos-area img {
     margin-right: 50px;
+}
+
+@media (max-width: 375px) {
+    .logos-area img {
+        margin-top: 50px;
+        margin-right: 0;
+    }   
 }
 
 #ibm {
