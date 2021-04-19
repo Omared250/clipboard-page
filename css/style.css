@@ -197,6 +197,14 @@ main {
     margin: -450px auto 0 800px;
 }
 
+@media (max-width: 375px) {
+    .features-area {
+        width: 90%;
+        margin: 50px 5% 0 5%;
+        text-align: center;
+    }    
+}
+
 .features-area h3 {
     margin: 50px 0 0 0;
     font-size: 18px;
