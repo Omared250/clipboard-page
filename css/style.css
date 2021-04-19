@@ -301,6 +301,13 @@ main {
     color: var(--Grayish-Blue);
 }
 
+@media (max-width: 375px) {
+    #paragraph-1 {
+        width: auto;
+        font-size: 18px;
+    }   
+}
+
 .workflow-features {
     display: flex;
     width: 90%;
@@ -311,9 +318,26 @@ main {
     text-align: center;
 }
 
+@media (max-width: 375px) {
+    .workflow-features {
+        flex-direction: column;
+    }
+}
+
 .workflow-features div {
     width: 300px;
     margin-right: 20px;
+}
+
+@media (max-width: 375px) {
+    .workflow-features div {
+        margin-right: 0;
+    }
+    
+    .workflow-features div img {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
 }
 
 .workflow-features div h3 {
