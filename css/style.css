@@ -159,6 +159,12 @@ main {
     color: var(--Dark-Grayish-Blue);
 }
 
+@media (max-width: 375px) {
+    .snippets-area h2 {
+        font-size: 35px;
+    }
+}
+
 #snippets-paragraph {
     margin: 10px auto 0 auto;
     width: 650px;
@@ -168,9 +174,22 @@ main {
     color: var(--Grayish-Blue);
 }
 
+@media (max-width: 375px) {
+    #snippets-paragraph {
+        width: auto;
+    }
+}
+
 .snippets-area img {
     width: 650px;
     margin: 50px auto 0 auto;
+}
+
+@media (max-width: 375px) {
+    .snippets-area img {
+        width: 90%;
+        margin: 50px 5% 0 5%;
+    }
 }
 
 .features-area {
